@@ -9,7 +9,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", views.home, name="home"),
     # TO DO
-    path("todo/", include("todo.urls")),
+    path("", include("todo.urls")),
 ]
 
 
